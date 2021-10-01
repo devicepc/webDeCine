@@ -43,6 +43,7 @@ function quitarbtnDesca(){
   document.getElementById("h3titleselectasientos").style.display="none";
   document.getElementById("slect1asiento").style.display="none";
   document.getElementById("btndosEntradas").style.display="none";
+  //  document.getElementById("InfoSalas4").style.display="none";
 
 
 }
@@ -55,6 +56,8 @@ function quitarbtnDescaCRes(){
   document.getElementById("qrvacio").style.display="block";
   document.getElementById("container").style.display="none";
   document.getElementById("h3pdf").style.display="none";
+  // document.getElementById("InfoSalas4").style.display="none";
 
 
 }
+

@@ -625,6 +625,10 @@ header label:hover{
 }
 .InfoSalas2{
     width: 100%;
+    display: block;
+}
+#Infosalas4{
+    display: block;
 }
 .slider2{
     margin-top: 50px;

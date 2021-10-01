@@ -124,54 +124,7 @@
         <iframe width="660" height="395" src="https://www.youtube.com/embed/DhP0P4q8jLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> 
     
-<div class="entradas" id="entradas">
-    <img src="./images/logo5.png" alt="" id="logopeliticket">
-    <h3 id="h3tickettitulo">Ticket de entradas</h3>
-    <!-- <h3 id="titlepdf"> Ya seleccionaste tu peli </h3> -->
-    <p id="entradasp"></p>
-    <p id="entradasp2"></p>
-       
-        <!-- counter-->
-        <h3 id="h3pdf">Comprar de entradas</h3>
-<div id="container">
-<div id="number">0</div>
-<button id="increment" onclick="addMas();">+</button><button id="decrement" onclick="decMenos()" >-</button>
-</div>
-        <!-- fin de counter-->
-<button id="elejasientos" onclick="selecseats();"> Elegir tus asientos y Pagar </button>
-<button id="pagarsinreserva" onclick="pagar();"> Pagar sin reservar </button>
-<p id="Preciosinseleccion"></p>
-<br>
-<div id="aviso1">
-<div id="avisosTicket1" class="avisoticket">
-    <p class="infoentradas">Todas nuestras salas cumplen con todas las normas de higiene sugeridas por el minitrerio de Salud </p>
-    <p class="infoentradas">Recuerde que en caso que necesite cambiar sus entradas debera dirigirse a la sala mas proxima, <strong>antes del dia de la resreva</strong> para realizar el cambio, el cambio puede tener costos extras.</p>
-    <p class="infoentradas">Si desea comunicarse puede hacerlo a traves del <a href="tel:+5982345669354">tel: 2345669354  </p></a>
-    </div>
-        <button id="pdfexport1">Descargar para pagar</button>
-        <img src="./images/qrvacio.jpg" alt="qrvacio" id="qrvacio">
-    </div>
-<div id="divselectseat">
-        <h3 id="h3titleselectasientos"> Elegir tus asientos... (hasta 2 entradas)</h3>
-    <button type="button" id="slect1asiento" onclick="asientos();">Selecciona el 1° asiento </button><button type="button" id="btndosEntradas" onclick="asientos2();">Agregar otro asiento</button>
-    <br>
-    <p id="Infoasientos"></p><p id="Infoasientos2"></p>
-    
-    <p id="totalMensage"></p>
-    <!-- <button class="buttonform" type="button" id="calcPrecio" onclick="pagar();">Culminar seleccion</button>-->
-    <p id="precio"></p> 
-    <p id="preciomasseleccion"></p>
-    <hr>
-<div id="avisosTicket" class="avisoticket">
-<p>Todas nuestras salas cumplen con todas las normas de higiene sugeridas por el minitrerio de Salud </p>
-<p>Recuerde que en caso que necesite cambiar sus entradas debera dirigirse a la sala mas proxima, <strong>antes del dia de la resreva</strong> para realizar el cambio, el cambio puede tener costos extras.</p>
-<p>Si desea comunicarse puede hacerlo a traves del <a href="tel:+5982345669354" id="hrefTicket">tel: 2345669354  </p></a>
-</div>
-    <button id="pdfexport" onclick="pdfexport();">Descargar para pagar</button>
-    
-</div>
 
-</div>
 <!-- <div id="ticketentradas">
     <img src="./images/logo3.png" alt="" id="logopeliticket">
     <h3>Ticket de entradas</h3>
@@ -196,9 +149,8 @@
 </div>
 
 
-</div>
-
- -->    <div class="InfoSalas2">
+</div> -->   
+ <div class="InfoSalas2" id="Infosalas4">
         <form action=""  class="form">
             <h3 class="h3form">Comprar aqui tus entradas <span class="icon-ticket"></span></h3>
             <label for="" class="Labelform">Pelicula</label><br>
@@ -222,11 +174,59 @@
                 
               </select>
               <br><br>
-            <button class="buttonform" type="button" id="" onclick="getData2();">Realizar la compra</button>
+            <button class="buttonform" type="button" id="" onclick="comprobacionesEInicio2();">Realizar la compra</button>
             
             <!-- <p id="MostrarAsientos"></p> -->
             
         </form>
+        </div>
+        <div class="entradas" id="entradas">
+            <img src="./images/logo5.png" alt="" id="logopeliticket">
+            <h3 id="h3tickettitulo">Ticket de entradas</h3>
+            <!-- <h3 id="titlepdf"> Ya seleccionaste tu peli </h3> -->
+            <p id="entradasp"></p>
+            <p id="entradasp2"></p>
+               
+                <!-- counter-->
+                <h3 id="h3pdf">Comprar de entradas</h3>
+        <div id="container">
+        <div id="number">0</div>
+        <button id="increment" onclick="addMas();">+</button><button id="decrement" onclick="decMenos()" >-</button>
+        </div>
+                <!-- fin de counter-->
+        <button id="elejasientos" onclick="selecseats();"> Elegir tus asientos y Pagar </button>
+        <button id="pagarsinreserva" onclick="pagar();"> Pagar sin reservar </button>
+        <p id="Preciosinseleccion"></p>
+        <br>
+        <div id="aviso1">
+        <div id="avisosTicket1" class="avisoticket">
+            <p class="infoentradas">Todas nuestras salas cumplen con todas las normas de higiene sugeridas por el minitrerio de Salud </p>
+            <p class="infoentradas">Recuerde que en caso que necesite cambiar sus entradas debera dirigirse a la sala mas proxima, <strong>antes del dia de la resreva</strong> para realizar el cambio, el cambio puede tener costos extras.</p>
+            <p class="infoentradas">Si desea comunicarse puede hacerlo a traves del <a href="tel:+5982345669354">tel: 2345669354  </p></a>
+            </div>
+                <button id="pdfexport1">Descargar para pagar</button>
+                <img src="./images/qrvacio.jpg" alt="qrvacio" id="qrvacio">
+            </div>
+        <div id="divselectseat">
+                <h3 id="h3titleselectasientos"> Elegir tus asientos... (hasta 2 entradas)</h3>
+            <button type="button" id="slect1asiento" onclick="asientos();">Selecciona el 1° asiento </button><button type="button" id="btndosEntradas" onclick="asientos2();">Agregar otro asiento</button>
+            <br>
+            <p id="Infoasientos"></p><p id="Infoasientos2"></p>
+            
+            <p id="totalMensage"></p>
+            <!-- <button class="buttonform" type="button" id="calcPrecio" onclick="pagar();">Culminar seleccion</button>-->
+            <p id="precio"></p> 
+            <p id="preciomasseleccion"></p>
+            <hr>
+        <div id="avisosTicket" class="avisoticket">
+        <p>Todas nuestras salas cumplen con todas las normas de higiene sugeridas por el minitrerio de Salud </p>
+        <p>Recuerde que en caso que necesite cambiar sus entradas debera dirigirse a la sala mas proxima, <strong>antes del dia de la resreva</strong> para realizar el cambio, el cambio puede tener costos extras.</p>
+        <p>Si desea comunicarse puede hacerlo a traves del <a href="tel:+5982345669354" id="hrefTicket">tel: 2345669354  </p></a>
+        </div>
+            <button id="pdfexport" onclick="pdfexport();">Descargar para pagar</button>
+            
+        </div>
+        
         </div>
     <div class="InfoGral">
         <table class="w3-table">
